@@ -1,4 +1,4 @@
-package main.java.com.equipe.biblioteca.model;
+package br.edu.ifpb.biblioteca.model;
 
 import java.util.Objects;
 
@@ -22,7 +22,7 @@ public class Livro {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof com.equipe.biblioteca.model.Livro livro)) return false;
+        if (!(o instanceof br.edu.ifpb.biblioteca.model.Livro livro)) return false;
         return Objects.equals(id, livro.id);
     }
 

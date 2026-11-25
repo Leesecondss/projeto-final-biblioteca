@@ -1,6 +1,6 @@
-package com.equipe.biblioteca.service;
+package br.edu.ifpb.biblioteca.service;
 
-import main.java.com.equipe.biblioteca.model.Livro;
+import br.edu.ifpb.biblioteca.model.Livro;
 
 public class EmprestimoValidator {
     public static final int prazo_minimo_dias = 1;

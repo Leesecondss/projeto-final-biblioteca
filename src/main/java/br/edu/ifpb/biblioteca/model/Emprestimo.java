@@ -1,4 +1,4 @@
-package main.java.com.equipe.biblioteca.model;
+package br.edu.ifpb.biblioteca.model;
 
 import java.time.LocalDate;
 import java.util.UUID;

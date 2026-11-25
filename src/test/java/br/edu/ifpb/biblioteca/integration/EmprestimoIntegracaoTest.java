@@ -1,10 +1,10 @@
-package test.java.com.equipe.biblioteca.integration;
+package br.edu.ifpb.biblioteca.integration;
 
-import test.java.com.equipe.biblioteca.model.Emprestimo;
-import test.java.com.equipe.biblioteca.model.Livro;
-import test.java.com.equipe.biblioteca.repository.EmprestimoRepositoryMemoria;
-import test.java.com.equipe.biblioteca.service.EmprestimoService;
-import test.java.com.equipe.biblioteca.service.EmprestimoValidator;
+import br.edu.ifpb.biblioteca.model.Emprestimo;
+import br.edu.ifpb.biblioteca.model.Livro;
+import br.edu.ifpb.biblioteca.repository.EmprestimoRepositoryMemoria;
+import br.edu.ifpb.biblioteca.service.EmprestimoService;
+import br.edu.ifpb.biblioteca.service.EmprestimoValidator;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;

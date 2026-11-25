@@ -1,6 +1,6 @@
-package main.java.com.equipe.biblioteca.repository;
+package br.edu.ifpb.biblioteca.repository;
 
-import main.java.com.equipe.biblioteca.model.Emprestimo;
+import br.edu.ifpb.biblioteca.model.Emprestimo;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

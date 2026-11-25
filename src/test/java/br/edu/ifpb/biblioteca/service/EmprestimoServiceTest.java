@@ -1,9 +1,9 @@
-package main.java.com.equipe.biblioteca.service;
+package br.edu.ifpb.biblioteca.service;
 
-import main.java.com.equipe.biblioteca.model.Emprestimo;
-import main.java.com.equipe.biblioteca.model.Livro;
-import main.java.com.equipe.biblioteca.repository.EmprestimoRepository;
-import main.java.com.equipe.biblioteca.repository.EmprestimoRepositoryMemoria;
+import br.edu.ifpb.biblioteca.model.Emprestimo;
+import br.edu.ifpb.biblioteca.model.Livro;
+import br.edu.ifpb.biblioteca.repository.EmprestimoRepository;
+import br.edu.ifpb.biblioteca.repository.EmprestimoRepositoryMemoria;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
