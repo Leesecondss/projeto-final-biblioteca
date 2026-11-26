@@ -1,25 +1,20 @@
-name: CI - Controle de Biblioteca
+name: Executar Testes Maven
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ main ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ main ]
 
 jobs:
-  build-and-test:
+  test:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout do código
-        uses: actions/checkout@v4
-
+      - uses: actions/checkout@v4
       - name: Configurar JDK 17
         uses: actions/setup-java@v4
         with:
           java-version: '17'
           distribution: 'temurin'
-          cache: 'maven'
-
-      - name: Executar suíte de testes
+      - name: Rodar suíte de testes
         run: mvn test
